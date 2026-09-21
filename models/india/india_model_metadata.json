@@ -1,0 +1,17 @@
+{
+  "model_name": "Skyhour India Airport Passenger Demand Forecaster",
+  "version": "1.0.0",
+  "target": "monthly_passengers",
+  "features": ["month", "quarter", "is_peak_season", "temperature_c", "rainfall_mm", "humidity_pct", "wind_speed_kmh", "lag_1m_pax", "lag_12m_pax"],
+  "test_metrics": {
+    "mae": 50588.3,
+    "rmse": 187784.3,
+    "mape_pct": 5.57,
+    "r2": 0.9837
+  },
+  "temporal_splits": {
+    "train": "2021-2023",
+    "validation": "2024",
+    "test": "2025"
+  }
+}

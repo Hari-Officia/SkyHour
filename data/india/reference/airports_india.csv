@@ -1,0 +1,65 @@
+airport_iata,airport_icao,airport_name,city,state,latitude,longitude,elevation_ft,operator,airport_type,is_hub,annual_passengers_mil
+DEL,VIDP,Indira Gandhi International Airport,New Delhi,Delhi,28.5562,77.1000,777,DIAL (GMR),International,TRUE,73.6
+BOM,VABB,Chhatrapati Shivaji Maharaj International Airport,Mumbai,Maharashtra,19.0896,72.8656,37,MIAL (Adani),International,TRUE,51.6
+BLR,VOBL,Kempegowda International Airport,Bengaluru,Karnataka,13.1986,77.7066,3000,BIAL,International,TRUE,37.5
+MAA,VOMM,Chennai International Airport,Chennai,Tamil Nadu,12.9941,80.1709,52,AAI,International,TRUE,21.1
+HYD,VOHS,Rajiv Gandhi International Airport,Hyderabad,Telangana,17.2403,78.4294,2024,GHIAL (GMR),International,TRUE,25.0
+CCU,VECC,Netaji Subhash Chandra Bose International Airport,Kolkata,West Bengal,22.6547,88.4467,16,AAI,International,TRUE,19.8
+AMD,VAAH,Sardar Vallabhbhai Patel International Airport,Ahmedabad,Gujarat,23.0772,72.6347,189,Adani Airports,International,FALSE,11.2
+PNQ,VAPO,Pune Airport,Pune,Maharashtra,18.5822,73.9197,1942,AAI,Customs,FALSE,8.0
+COK,VOCI,Cochin International Airport,Kochi,Kerala,10.1520,76.4019,30,CIAL,International,FALSE,10.3
+GOI,VAGO,Dabolim Airport,Goa,Goa,15.3808,73.8314,184,AAI / Navy,International,FALSE,8.4
+GOX,VDGO,Manohar International Airport (MOPA),Goa,Goa,15.7481,73.8647,550,GGIAL (GMR),International,FALSE,4.2
+CJB,VOCB,Coimbatore International Airport,Coimbatore,Tamil Nadu,11.0300,77.0434,1319,AAI,International,FALSE,2.9
+TRZ,VOTR,Tiruchirappalli International Airport,Tiruchirappalli,Tamil Nadu,10.7654,78.7097,288,AAI,International,FALSE,1.8
+IXM,VOMD,Madurai Airport,Madurai,Tamil Nadu,9.8345,78.0934,446,AAI,Customs,FALSE,1.4
+SXV,VOSM,Salem Airport,Salem,Tamil Nadu,11.7783,78.0647,974,AAI,Domestic (UDAN),FALSE,0.1
+TCR,VOTY,Tuticorin Airport,Thoothukudi,Tamil Nadu,8.7242,78.0267,130,AAI,Domestic,FALSE,0.2
+ATQ,VIAT,Sri Guru Ram Dass Jee International Airport,Amritsar,Punjab,31.7096,74.7973,756,AAI,International,FALSE,2.8
+IXC,VICG,Chandigarh International Airport,Chandigarh,Chandigarh,30.6735,76.7885,1012,CHIAL,Customs,FALSE,3.6
+GAU,VEGT,Lokpriya Gopinath Bordoloi International Airport,Guwahati,Assam,26.1061,91.5859,162,Adani Airports,International,TRUE,5.8
+JAI,VIJP,Jaipur International Airport,Jaipur,Rajasthan,26.8242,75.8122,1263,Adani Airports,International,FALSE,5.4
+LKO,VILK,Chaudhary Charan Singh International Airport,Lucknow,Uttar Pradesh,26.7606,80.8893,403,Adani Airports,International,FALSE,5.2
+TRV,VOTV,Thiruvananthapuram International Airport,Thiruvananthapuram,Kerala,8.4821,76.9200,15,Adani Airports,International,FALSE,4.4
+CCJ,VOCL,Calicut International Airport,Kozhikode,Kerala,11.1368,75.9553,342,AAI,International,FALSE,3.2
+IXE,VOML,Mangaluru International Airport,Mangaluru,Karnataka,12.9613,74.8900,337,Adani Airports,International,FALSE,1.9
+PAT,VEPT,Jay Prakash Narayan Airport,Patna,Bihar,25.5913,85.0880,170,AAI,Customs,FALSE,4.2
+BBI,VEBS,Biju Patnaik International Airport,Bhubaneswar,Odisha,20.2444,85.8178,140,AAI,International,FALSE,4.5
+IDR,VAID,Devi Ahilya Bai Holkar Airport,Indore,Madhya Pradesh,22.7217,75.8011,1850,AAI,International,FALSE,3.1
+NAG,VANP,Dr. Babasaheb Ambedkar International Airport,Nagpur,Maharashtra,21.0922,79.0472,1033,MIL,International,FALSE,2.8
+IXB,VEBD,Bagdogra Airport,Siliguri,West Bengal,26.6812,88.3286,282,AAI,Customs,FALSE,3.1
+SXR,VISR,Sheikh ul-Alam International Airport,Srinagar,Jammu and Kashmir,33.9872,74.7742,5397,AAI / IAF,Customs,FALSE,4.4
+IXJ,VIJU,Jammu Airport,Jammu,Jammu and Kashmir,32.6892,74.8372,1029,AAI / IAF,Domestic,FALSE,1.8
+IXL,VILH,Kushok Bakula Rimpochee Airport,Leh,Ladakh,34.1358,77.5464,10682,AAI / IAF,Domestic,FALSE,1.2
+IXA,VEAT,Maharaja Bir Bikram Airport,Agartala,Tripura,23.8870,91.2405,46,AAI,Customs,FALSE,1.5
+IMF,VEIM,Imphal Airport,Imphal,Manipur,24.7600,93.8967,2541,AAI,International,FALSE,1.2
+RJA,VORY,Rajahmundry Airport,Rajahmundry,Andhra Pradesh,17.1106,81.8181,151,AAI,Domestic,FALSE,0.4
+VTZ,VOVZ,Visakhapatnam Airport,Visakhapatnam,Andhra Pradesh,17.7211,83.2244,15,AAI / Navy,Customs,FALSE,2.8
+TIR,VOTP,Tirupati Airport,Tirupati,Andhra Pradesh,13.6325,79.5433,350,AAI,International,FALSE,0.9
+VGA,VOBM,Vijayawada Airport,Vijayawada,Andhra Pradesh,16.5304,80.7968,82,AAI,International,FALSE,1.1
+DHM,VIGG,Gaggal Airport (Dharamshala),Kangra,Himachal Pradesh,32.1651,76.2634,2525,AAI,Domestic,FALSE,0.3
+SLV,VISM,Shimla Airport,Shimla,Himachal Pradesh,31.0817,77.0678,5072,AAI,Domestic (UDAN),FALSE,0.1
+KUU,VIGB,Kullu Manali Airport (Bhuntar),Bhuntar,Himachal Pradesh,31.8767,77.1542,3573,AAI,Domestic,FALSE,0.1
+BDQ,VABO,Vadodara Airport,Vadodara,Gujarat,22.3361,73.2264,127,AAI,Customs,FALSE,1.2
+STV,VASU,Surat Airport,Surat,Gujarat,21.1142,72.7419,16,AAI,International,FALSE,1.3
+HSR,VIHSR,Hisar Airport,Hisar,Haryana,29.1794,75.7538,705,Government of Haryana,Domestic (UDAN),FALSE,0.05
+GWL,VIGL,Gwalior Airport,Gwalior,Madhya Pradesh,26.2933,78.2278,617,AAI / IAF,Domestic,FALSE,0.4
+JLR,VAJB,Jabalpur Airport,Jabalpur,Madhya Pradesh,23.1778,80.0522,1624,AAI,Domestic,FALSE,0.5
+RPR,VERP,Swami Vivekananda Airport,Raipur,Chhattisgarh,21.1803,81.7389,1040,AAI,Customs,FALSE,2.5
+DED,VIDN,Jolly Grant Airport,Dehradun,Uttarakhand,30.1897,78.1803,1825,AAI,Domestic,FALSE,1.6
+PNT,VIPK,Pantnagar Airport,Pantnagar,Uttarakhand,29.0333,79.4736,764,AAI,Domestic (UDAN),FALSE,0.1
+IXR,VERC,Birsa Munda Airport,Ranchi,Jharkhand,23.3142,85.3217,2148,AAI,Customs,FALSE,2.4
+DHO,VEDO,Deoghar Airport,Deoghar,Jharkhand,24.4439,86.7028,833,AAI,Domestic (UDAN),FALSE,0.3
+JRG,VEJH,Veer Surendra Sai Airport,Jharsuguda,Odisha,21.9136,84.0503,750,AAI,Domestic (UDAN),FALSE,0.3
+DMU,VEMR,Dimapur Airport,Dimapur,Nagaland,25.8839,93.7711,487,AAI,Domestic,FALSE,0.4
+SHL,VEBI,Shillong Airport (Umroi),Shillong,Meghalaya,25.7036,91.9786,950,AAI,Domestic (UDAN),FALSE,0.1
+AJL,VELP,Lengpui Airport,Aizawl,Mizoram,23.8406,92.6192,1328,Government of Mizoram,Domestic,FALSE,0.2
+IXS,VESL,Silchar Airport,Silchar,Assam,24.9128,92.9789,352,AAI / IAF,Domestic,FALSE,0.4
+DBR,VEMD,Dibrugarh Airport,Dibrugarh,Assam,27.4839,95.0169,361,AAI,Domestic,FALSE,1.1
+JRH,VEJT,Jorhat Airport,Jorhat,Assam,26.7314,94.1758,284,AAI / IAF,Domestic,FALSE,0.3
+TEZ,VETZ,Tezpur Airport,Tezpur,Assam,26.7092,92.7872,240,AAI / IAF,Domestic (UDAN),FALSE,0.1
+IXT,VEPZ,Pakyong Airport,Pakyong,Sikkim,27.2344,88.5886,4590,AAI,Domestic (UDAN),FALSE,0.05
+IXZ,VOPB,Veer Savarkar International Airport,Port Blair,Andaman and Nicobar Islands,11.6411,92.7297,14,AAI / Navy,International,FALSE,1.7
+PYB,VOPY,Jeypore Airport,Jeypore,Odisha,18.8800,82.5530,1950,Government of Odisha,Domestic (UDAN),FALSE,0.05
+HYT,VDPO,Donyi Polo Airport (Itanagar),Hollongi,Arunachal Pradesh,26.9600,93.6400,450,AAI,Domestic,FALSE,0.2
+RMD,VOMD,Ramagundam Airport,Ramagundam,Telangana,18.7800,79.4400,550,AAI,Domestic (UDAN),FALSE,0.02

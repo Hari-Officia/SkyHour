@@ -1,0 +1,28 @@
+# Credentials & Environment Variables
+.env
+credentials.json
+*.key
+*.pem
+
+# Dependencies & Build Outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.Rproj.user/
+.RData
+.Rhistory
+*.log
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Scratch & Temporary files
+scratch/
+tmp/
+
+# Large Binary & Dataset Files (>100MB - exceeds GitHub file limit)
+data/Combined_Flights_2022.parquet
+models/model_logistic_regression.rds
+models/model_random_forest.rds
+

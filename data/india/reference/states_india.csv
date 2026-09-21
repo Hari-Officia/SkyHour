@@ -1,0 +1,32 @@
+state_code,state_name,capital,region,primary_airport_iata,airport_count
+DL,Delhi,New Delhi,North,DEL,1
+MH,Maharashtra,Mumbai,West,BOM,6
+KA,Karnataka,Bengaluru,South,BLR,6
+TN,Tamil Nadu,Chennai,South,MAA,6
+TS,Telangana,Hyderabad,South,HYD,2
+WB,West Bengal,Kolkata,East,CCU,3
+GJ,Gujarat,Ahmedabad,West,AMD,4
+KL,Kerala,Thiruvananthapuram,South,COK,4
+GA,Goa,Panaji,West,GOI,2
+PB,Punjab,Chandigarh,North,ATQ,2
+HR,Haryana,Chandigarh,North,HSR,1
+UP,Uttar Pradesh,Lucknow,North,LKO,5
+RJ,Rajasthan,Jaipur,North,JAI,4
+MP,Madhya Pradesh,Bhopal,Central,IDR,4
+OR,Odisha,Bhubaneswar,East,BBI,3
+AP,Andhra Pradesh,Amaravati,South,VTZ,4
+AS,Assam,Dispur,Northeast,GAU,6
+JK,Jammu and Kashmir,Srinagar,North,SXR,2
+LA,Ladakh,Leh,North,IXL,1
+TR,Tripura,Agartala,Northeast,IXA,1
+MN,Imphal,Imphal,Northeast,IMF,1
+UK,Uttarakhand,Dehradun,North,DED,2
+JH,Jharkhand,Ranchi,East,IXR,2
+CT,Chhattisgarh,Raipur,Central,RPR,1
+HP,Himachal Pradesh,Shimla,North,DHM,3
+BR,Bihar,Patna,East,PAT,2
+AN,Andaman and Nicobar Islands,Port Blair,South,IXZ,1
+SK,Sikkim,Gangtok,Northeast,IXT,1
+NL,Nagaland,Kohima,Northeast,DMU,1
+MZ,Mizoram,Aizawl,Northeast,AJL,1
+AR,Arunachal Pradesh,Itanagar,Northeast,HYT,1

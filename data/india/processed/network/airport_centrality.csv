@@ -1,0 +1,19 @@
+"airport_iata","airport_name","city","state","degree_centrality","betweenness_centrality","weighted_passenger_degree","pagerank_score","network_rank"
+"DEL","Indira Gandhi International Airport","New Delhi","Delhi",8,0.5221,873000,0.2225,1
+"BOM","Chhatrapati Shivaji Maharaj International Airport","Mumbai","Maharashtra",6,0.2426,736000,0.1784,2
+"BLR","Kempegowda International Airport","Bengaluru","Karnataka",5,0.1324,561000,0.1362,3
+"MAA","Chennai International Airport","Chennai","Tamil Nadu",8,0.5147,409700,0.1326,4
+"HYD","Rajiv Gandhi International Airport","Hyderabad","Telangana",3,0,291000,0.0694,5
+"CCU","Netaji Subhash Chandra Bose International Airport","Kolkata","West Bengal",1,0,96000,0.0291,6
+"GAU","Lokpriya Gopinath Bordoloi International Airport","Guwahati","Assam",2,0.1176,82000,0.0348,7
+"AMD","Sardar Vallabhbhai Patel International Airport","Ahmedabad","Gujarat",1,0,79000,0.0246,8
+"GOI","Dabolim Airport","Goa","Goa",1,0,78000,0.0244,9
+"COK","Cochin International Airport","Kochi","Kerala",1,0,67000,0.0222,10
+"SXR","Sheikh ul-Alam International Airport","Srinagar","Jammu and Kashmir",1,0,59000,0.0211,11
+"CJB","Coimbatore International Airport","Coimbatore","Tamil Nadu",1,0,48000,0.0215,12
+"IXM","Madurai Airport","Madurai","Tamil Nadu",1,0,36000,0.0182,13
+"ATQ","Sri Guru Ram Dass Jee International Airport","Amritsar","Punjab",1,0,34000,0.0157,14
+"TRZ","Tiruchirappalli International Airport","Tiruchirappalli","Tamil Nadu",1,0,31000,0.0169,15
+"IXA","Maharaja Bir Bikram Airport","Agartala","Tripura",1,0,18000,0.0148,16
+"TCR","Tuticorin Airport","Thoothukudi","Tamil Nadu",1,0,1500,0.0087,17
+"SXV","Salem Airport","Salem","Tamil Nadu",1,0,1200,0.0087,18

@@ -1,0 +1,65 @@
+"airport_iata","airport_icao","airport_name","city","state","latitude","longitude","elevation_ft","operator","airport_type","is_hub","annual_passengers_mil","degree_centrality","betweenness_centrality","weighted_passenger_degree","pagerank_score","network_rank","monthly_passengers","monthly_flights","aircraft_movements","temperature_c","rainfall_mm","humidity_pct","wind_speed_kmh","weather_severity_score","traffic_pressure_index","skyhour_risk_score"
+"DEL","VIDP","Indira Gandhi International Airport","New Delhi","Delhi",28.5562,77.1,777,"DIAL (GMR)","International",TRUE,73.6,8,0.5221,873000,0.2225,1,8832000,62197,67173,16.7,18.5,65,12.5,22.1,100,75
+"BOM","VABB","Chhatrapati Shivaji Maharaj International Airport","Mumbai","Maharashtra",19.0896,72.8656,37,"MIAL (Adani)","International",TRUE,51.6,6,0.2426,736000,0.1784,2,6192000,43606,47094,21,18.5,65,12.5,25,100,71.6
+"BLR","VOBL","Kempegowda International Airport","Bengaluru","Karnataka",13.1986,77.7066,3000,"BIAL","International",TRUE,37.5,5,0.1324,561000,0.1362,3,4500000,31690,34225,23.7,18.5,65,12.5,26.7,100,68
+"MAA","VOMM","Chennai International Airport","Chennai","Tamil Nadu",12.9941,80.1709,52,"AAI","International",TRUE,21.1,8,0.5147,409700,0.1326,4,2532000,17831,19257,23.8,18.5,65,12.5,26.8,100,67.6
+"HYD","VOHS","Rajiv Gandhi International Airport","Hyderabad","Telangana",17.2403,78.4294,2024,"GHIAL (GMR)","International",TRUE,25,3,0,291000,0.0694,5,3e+06,21127,22817,21.8,18.5,65,12.5,25.5,100,60.9
+"CCU","VECC","Netaji Subhash Chandra Bose International Airport","Kolkata","West Bengal",22.6547,88.4467,16,"AAI","International",TRUE,19.8,1,0,96000,0.0291,6,2376000,16732,18071,19.4,18.5,65,12.5,23.9,100,56.3
+"AMD","VAAH","Sardar Vallabhbhai Patel International Airport","Ahmedabad","Gujarat",23.0772,72.6347,189,"Adani Airports","International",FALSE,11.2,1,0,79000,0.0246,8,1344000,9465,10222,19.2,18.5,65,12.5,23.8,100,55.8
+"PNQ","VAPO","Pune Airport","Pune","Maharashtra",18.5822,73.9197,1942,"AAI","Customs",FALSE,8,1,1e-04,5000,0.005,99,960000,6761,7302,21.2,18.5,65,12.5,25.1,96,52.5
+"COK","VOCI","Cochin International Airport","Kochi","Kerala",10.152,76.4019,30,"CIAL","International",FALSE,10.3,1,0,67000,0.0222,10,1236000,8704,9400,25,18.5,65,12.5,27.7,100,56.9
+"GOI","VAGO","Dabolim Airport","Goa","Goa",15.3808,73.8314,184,"AAI / Navy","International",FALSE,8.4,1,0,78000,0.0244,9,1008000,7099,7667,22.7,18.5,65,12.5,26.1,100,56.6
+"GOX","VDGO","Manohar International Airport (MOPA)","Goa","Goa",15.7481,73.8647,550,"GGIAL (GMR)","International",FALSE,4.2,1,1e-04,5000,0.005,99,504000,3549,3833,22.5,18.5,65,12.5,26,50.4,32.3
+"CJB","VOCB","Coimbatore International Airport","Coimbatore","Tamil Nadu",11.03,77.0434,1319,"AAI","International",FALSE,2.9,1,0,48000,0.0215,12,348000,2451,2647,24.6,18.5,65,12.5,27.4,34.8,27.4
+"TRZ","VOTR","Tiruchirappalli International Airport","Tiruchirappalli","Tamil Nadu",10.7654,78.7097,288,"AAI","International",FALSE,1.8,1,0,31000,0.0169,15,216000,1521,1643,24.8,18.5,65,12.5,27.5,21.6,21
+"IXM","VOMD","Madurai Airport","Madurai","Tamil Nadu",9.8345,78.0934,446,"AAI","Customs",FALSE,1.4,1,0,36000,0.0182,13,168000,1183,1278,25.2,18.5,65,12.5,27.8,16.8,19.1
+"SXV","VOSM","Salem Airport","Salem","Tamil Nadu",11.7783,78.0647,974,"AAI","Domestic (UDAN)",FALSE,0.1,1,0,1200,0.0087,18,12000,85,92,24.3,18.5,65,12.5,27.2,1.2,10.9
+"TCR","VOTY","Tuticorin Airport","Thoothukudi","Tamil Nadu",8.7242,78.0267,130,"AAI","Domestic",FALSE,0.2,1,0,1500,0.0087,17,24000,169,183,25.7,18.5,65,12.5,28.1,2.4,11.8
+"ATQ","VIAT","Sri Guru Ram Dass Jee International Airport","Amritsar","Punjab",31.7096,74.7973,756,"AAI","International",FALSE,2.8,1,0,34000,0.0157,14,336000,2366,2555,15.3,18.5,65,12.5,21.2,33.6,24.1
+"IXC","VICG","Chandigarh International Airport","Chandigarh","Chandigarh",30.6735,76.7885,1012,"CHIAL","Customs",FALSE,3.6,1,1e-04,5000,0.005,99,432000,3042,3285,15.8,18.5,65,12.5,21.5,43.2,27.5
+"GAU","VEGT","Lokpriya Gopinath Bordoloi International Airport","Guwahati","Assam",26.1061,91.5859,162,"Adani Airports","International",TRUE,5.8,2,0.1176,82000,0.0348,7,696000,4901,5293,17.9,18.5,65,12.5,22.9,69.6,42.8
+"JAI","VIJP","Jaipur International Airport","Jaipur","Rajasthan",26.8242,75.8122,1263,"Adani Airports","International",FALSE,5.4,1,1e-04,5000,0.005,99,648000,4563,4928,17.5,18.5,65,12.5,22.7,64.8,37.6
+"LKO","VILK","Chaudhary Charan Singh International Airport","Lucknow","Uttar Pradesh",26.7606,80.8893,403,"Adani Airports","International",FALSE,5.2,1,1e-04,5000,0.005,99,624000,4394,4746,17.6,18.5,65,12.5,22.7,62.4,36.5
+"TRV","VOTV","Thiruvananthapuram International Airport","Thiruvananthapuram","Kerala",8.4821,76.92,15,"Adani Airports","International",FALSE,4.4,1,1e-04,5000,0.005,99,528000,3718,4015,25.8,18.5,65,12.5,28.2,52.8,34.1
+"CCJ","VOCL","Calicut International Airport","Kozhikode","Kerala",11.1368,75.9553,342,"AAI","International",FALSE,3.2,1,1e-04,5000,0.005,99,384000,2704,2920,24.6,18.5,65,12.5,27.4,38.4,27.4
+"IXE","VOML","Mangaluru International Airport","Mangaluru","Karnataka",12.9613,74.89,337,"Adani Airports","International",FALSE,1.9,1,1e-04,5000,0.005,99,228000,1606,1734,23.8,18.5,65,12.5,26.8,22.8,20.1
+"PAT","VEPT","Jay Prakash Narayan Airport","Patna","Bihar",25.5913,85.088,170,"AAI","Customs",FALSE,4.2,1,1e-04,5000,0.005,99,504000,3549,3833,18.1,18.5,65,12.5,23,50.4,31.2
+"BBI","VEBS","Biju Patnaik International Airport","Bhubaneswar","Odisha",20.2444,85.8178,140,"AAI","International",FALSE,4.5,1,1e-04,5000,0.005,99,540000,3803,4107,20.5,18.5,65,12.5,24.6,54,33.4
+"IDR","VAID","Devi Ahilya Bai Holkar Airport","Indore","Madhya Pradesh",22.7217,75.8011,1850,"AAI","International",FALSE,3.1,1,1e-04,5000,0.005,99,372000,2620,2830,19.4,18.5,65,12.5,23.9,37.2,25.6
+"NAG","VANP","Dr. Babasaheb Ambedkar International Airport","Nagpur","Maharashtra",21.0922,79.0472,1033,"MIL","International",FALSE,2.8,1,1e-04,5000,0.005,99,336000,2366,2555,20.1,18.5,65,12.5,24.4,33.6,24.2
+"IXB","VEBD","Bagdogra Airport","Siliguri","West Bengal",26.6812,88.3286,282,"AAI","Customs",FALSE,3.1,1,1e-04,5000,0.005,99,372000,2620,2830,17.6,18.5,65,12.5,22.7,37.2,25.2
+"SXR","VISR","Sheikh ul-Alam International Airport","Srinagar","Jammu and Kashmir",33.9872,74.7742,5397,"AAI / IAF","Customs",FALSE,4.4,1,0,59000,0.0211,11,528000,3718,4015,14.3,18.5,65,12.5,20.5,52.8,33
+"IXJ","VIJU","Jammu Airport","Jammu","Jammu and Kashmir",32.6892,74.8372,1029,"AAI / IAF","Domestic",FALSE,1.8,1,1e-04,5000,0.005,99,216000,1521,1643,14.9,18.5,65,12.5,20.9,21.6,17.5
+"IXL","VILH","Kushok Bakula Rimpochee Airport","Leh","Ladakh",34.1358,77.5464,10682,"AAI / IAF","Domestic",FALSE,1.2,1,1e-04,5000,0.005,99,144000,1014,1095,14.2,18.5,65,12.5,20.5,14.4,14.2
+"IXA","VEAT","Maharaja Bir Bikram Airport","Agartala","Tripura",23.887,91.2405,46,"AAI","Customs",FALSE,1.5,1,0,18000,0.0148,16,180000,1268,1369,18.9,18.5,65,12.5,23.5,18,17.8
+"IMF","VEIM","Imphal Airport","Imphal","Manipur",24.76,93.8967,2541,"AAI","International",FALSE,1.2,1,1e-04,5000,0.005,99,144000,1014,1095,18.5,18.5,65,12.5,23.3,14.4,15.1
+"RJA","VORY","Rajahmundry Airport","Rajahmundry","Andhra Pradesh",17.1106,81.8181,151,"AAI","Domestic",FALSE,0.4,1,1e-04,5000,0.005,99,48000,338,365,21.9,18.5,65,12.5,25.6,4.8,11.6
+"VTZ","VOVZ","Visakhapatnam Airport","Visakhapatnam","Andhra Pradesh",17.7211,83.2244,15,"AAI / Navy","Customs",FALSE,2.8,1,1e-04,5000,0.005,99,336000,2366,2555,21.6,18.5,65,12.5,25.4,33.6,24.5
+"TIR","VOTP","Tirupati Airport","Tirupati","Andhra Pradesh",13.6325,79.5433,350,"AAI","International",FALSE,0.9,1,1e-04,5000,0.005,99,108000,761,822,23.5,18.5,65,12.5,26.6,10.8,14.7
+"VGA","VOBM","Vijayawada Airport","Vijayawada","Andhra Pradesh",16.5304,80.7968,82,"AAI","International",FALSE,1.1,1,1e-04,5000,0.005,99,132000,930,1004,22.2,18.5,65,12.5,25.8,13.2,15.5
+"DHM","VIGG","Gaggal Airport (Dharamshala)","Kangra","Himachal Pradesh",32.1651,76.2634,2525,"AAI","Domestic",FALSE,0.3,1,1e-04,5000,0.005,99,36000,254,274,15.1,18.5,65,12.5,21.1,3.6,9.5
+"SLV","VISM","Shimla Airport","Shimla","Himachal Pradesh",31.0817,77.0678,5072,"AAI","Domestic (UDAN)",FALSE,0.1,1,1e-04,5000,0.005,99,12000,85,92,15.6,18.5,65,12.5,21.4,1.2,8.5
+"KUU","VIGB","Kullu Manali Airport (Bhuntar)","Bhuntar","Himachal Pradesh",31.8767,77.1542,3573,"AAI","Domestic",FALSE,0.1,1,1e-04,5000,0.005,99,12000,85,92,15.3,18.5,65,12.5,21.1,1.2,8.4
+"BDQ","VABO","Vadodara Airport","Vadodara","Gujarat",22.3361,73.2264,127,"AAI","Customs",FALSE,1.2,1,1e-04,5000,0.005,99,144000,1014,1095,19.5,18.5,65,12.5,24,14.4,15.4
+"STV","VASU","Surat Airport","Surat","Gujarat",21.1142,72.7419,16,"AAI","International",FALSE,1.3,1,1e-04,5000,0.005,99,156000,1099,1187,20.1,18.5,65,12.5,24.4,15.6,16.1
+"HSR","VIHSR","Hisar Airport","Hisar","Haryana",29.1794,75.7538,705,"Government of Haryana","Domestic (UDAN)",FALSE,0.05,1,1e-04,5000,0.005,99,6000,42,45,16.5,18.5,65,12.5,22,0.6,8.5
+"GWL","VIGL","Gwalior Airport","Gwalior","Madhya Pradesh",26.2933,78.2278,617,"AAI / IAF","Domestic",FALSE,0.4,1,1e-04,5000,0.005,99,48000,338,365,17.8,18.5,65,12.5,22.8,4.8,10.6
+"JLR","VAJB","Jabalpur Airport","Jabalpur","Madhya Pradesh",23.1778,80.0522,1624,"AAI","Domestic",FALSE,0.5,1,1e-04,5000,0.005,99,60000,423,457,19.2,18.5,65,12.5,23.8,6,11.5
+"RPR","VERP","Swami Vivekananda Airport","Raipur","Chhattisgarh",21.1803,81.7389,1040,"AAI","Customs",FALSE,2.5,1,1e-04,5000,0.005,99,3e+05,2113,2282,20.1,18.5,65,12.5,24.4,30,22.5
+"DED","VIDN","Jolly Grant Airport","Dehradun","Uttarakhand",30.1897,78.1803,1825,"AAI","Domestic",FALSE,1.6,1,1e-04,5000,0.005,99,192000,1352,1460,16,18.5,65,12.5,21.7,19.2,16.7
+"PNT","VIPK","Pantnagar Airport","Pantnagar","Uttarakhand",29.0333,79.4736,764,"AAI","Domestic (UDAN)",FALSE,0.1,1,1e-04,5000,0.005,99,12000,85,92,16.5,18.5,65,12.5,22,1.2,8.7
+"IXR","VERC","Birsa Munda Airport","Ranchi","Jharkhand",23.3142,85.3217,2148,"AAI","Customs",FALSE,2.4,1,1e-04,5000,0.005,99,288000,2028,2190,19.1,18.5,65,12.5,23.7,28.8,21.8
+"DHO","VEDO","Deoghar Airport","Deoghar","Jharkhand",24.4439,86.7028,833,"AAI","Domestic (UDAN)",FALSE,0.3,1,1e-04,5000,0.005,99,36000,254,274,18.6,18.5,65,12.5,23.4,3.6,10.3
+"JRG","VEJH","Veer Surendra Sai Airport","Jharsuguda","Odisha",21.9136,84.0503,750,"AAI","Domestic (UDAN)",FALSE,0.3,1,1e-04,5000,0.005,99,36000,254,274,19.7,18.5,65,12.5,24.1,3.6,10.6
+"DMU","VEMR","Dimapur Airport","Dimapur","Nagaland",25.8839,93.7711,487,"AAI","Domestic",FALSE,0.4,1,1e-04,5000,0.005,99,48000,338,365,18,18.5,65,12.5,22.9,4.8,10.7
+"SHL","VEBI","Shillong Airport (Umroi)","Shillong","Meghalaya",25.7036,91.9786,950,"AAI","Domestic (UDAN)",FALSE,0.1,1,1e-04,5000,0.005,99,12000,85,92,18,18.5,65,12.5,23,1.2,9.1
+"AJL","VELP","Lengpui Airport","Aizawl","Mizoram",23.8406,92.6192,1328,"Government of Mizoram","Domestic",FALSE,0.2,1,1e-04,5000,0.005,99,24000,169,183,18.9,18.5,65,12.5,23.6,2.4,9.8
+"IXS","VESL","Silchar Airport","Silchar","Assam",24.9128,92.9789,352,"AAI / IAF","Domestic",FALSE,0.4,1,1e-04,5000,0.005,99,48000,338,365,18.4,18.5,65,12.5,23.2,4.8,10.8
+"DBR","VEMD","Dibrugarh Airport","Dibrugarh","Assam",27.4839,95.0169,361,"AAI","Domestic",FALSE,1.1,1,1e-04,5000,0.005,99,132000,930,1004,17.2,18.5,65,12.5,22.5,13.2,14.3
+"JRH","VEJT","Jorhat Airport","Jorhat","Assam",26.7314,94.1758,284,"AAI / IAF","Domestic",FALSE,0.3,1,1e-04,5000,0.005,99,36000,254,274,17.6,18.5,65,12.5,22.7,3.6,10.1
+"TEZ","VETZ","Tezpur Airport","Tezpur","Assam",26.7092,92.7872,240,"AAI / IAF","Domestic (UDAN)",FALSE,0.1,1,1e-04,5000,0.005,99,12000,85,92,17.6,18.5,65,12.5,22.7,1.2,9
+"IXT","VEPZ","Pakyong Airport","Pakyong","Sikkim",27.2344,88.5886,4590,"AAI","Domestic (UDAN)",FALSE,0.05,1,1e-04,5000,0.005,99,6000,42,45,17.3,18.5,65,12.5,22.5,0.6,8.6
+"IXZ","VOPB","Veer Savarkar International Airport","Port Blair","Andaman and Nicobar Islands",11.6411,92.7297,14,"AAI / Navy","International",FALSE,1.7,1,1e-04,5000,0.005,99,204000,1437,1552,24.4,18.5,65,12.5,27.2,20.4,19.2
+"PYB","VOPY","Jeypore Airport","Jeypore","Odisha",18.88,82.553,1950,"Government of Odisha","Domestic (UDAN)",FALSE,0.05,1,1e-04,5000,0.005,99,6000,42,45,21.1,18.5,65,12.5,25,0.6,9.5
+"HYT","VDPO","Donyi Polo Airport (Itanagar)","Hollongi","Arunachal Pradesh",26.96,93.64,450,"AAI","Domestic",FALSE,0.2,1,1e-04,5000,0.005,99,24000,169,183,17.5,18.5,65,12.5,22.6,2.4,9.5
+"RMD","VOMD","Ramagundam Airport","Ramagundam","Telangana",18.78,79.44,550,"AAI","Domestic (UDAN)",FALSE,0.02,1,1e-04,5000,0.005,99,2400,17,18,21.1,18.5,65,12.5,25.1,0.2,9.4

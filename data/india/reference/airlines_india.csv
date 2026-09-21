@@ -1,0 +1,11 @@
+airline_code,airline_name,iata_code,icao_code,callsign,headquarters,fleet_size,market_share_pct,operator_type,status
+6E,IndiGo,6E,IGO,IFLY,Gurugram (Haryana),360,61.8,Full Service / Low-Cost,Active
+AI,Air India,AI,AIC,AIRINDIA,Gurugram (Haryana),130,14.2,Full Service,Active
+SG,SpiceJet,SG,SEJ,SPICEJET,Gurugram (Haryana),55,3.8,Low-Cost,Active
+QP,Akasa Air,QP,AKJ,AKASA,Mumbai (Maharashtra),24,4.5,Low-Cost,Active
+UK,Vistara (Merged with Air India),UK,VTI,VISTARA,Gurugram (Haryana),70,9.8,Full Service,Active
+IX,Air India Express,IX,AXB,EXPRESS INDIA,Gurugram (Haryana),80,6.1,Low-Cost,Active
+9I,Alliance Air,9I,LLR,ALLIED,Delhi,21,0.8,Regional (UDAN),Active
+S5,Star Air,S5,SDG,HISTAR,Bengaluru (Karnataka),9,0.4,Regional (UDAN),Active
+IC,Fly91,IC,FYL,FLY91,Goa,3,0.2,Regional (UDAN),Active
+G8,Go First (Under Resolution),G8,GOW,GOAIR,Mumbai (Maharashtra),0,0.0,Low-Cost,Inactive
