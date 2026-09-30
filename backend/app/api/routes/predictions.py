@@ -4,6 +4,7 @@ from backend.app.ml.prediction_pipeline import predict_flight_delay
 router = APIRouter()
 
 @router.get("/prediction/flight/{flight_id}")
+@router.get("/predict")
 @router.post("/predict")
 def prediction_endpoint(
     flight_id: str = "AI302",

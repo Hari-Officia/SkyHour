@@ -22,20 +22,6 @@ export function IndiaFlights() {
   const miniMapContainerRef = useRef<HTMLDivElement>(null)
   const miniMapInstanceRef = useRef<L.Map | null>(null)
 
-  // Parse query parameters from URL on load
-  useEffect(() => {
-    getIndiaAirports().then(setAirports).catch(console.error)
-
-    const params = new URLSearchParams(location.search)
-    const fnParam = params.get('fn') || ''
-    if (fnParam) {
-      setFn(fnParam)
-      fetchFlights(fnParam)
-    } else {
-      fetchFlights('')
-    }
-  }, [location.search])
-
   const fetchFlights = (overrideFn?: string) => {
     setLoading(true)
     setErrorMsg('')
@@ -58,6 +44,20 @@ export function IndiaFlights() {
       })
       .finally(() => setLoading(false))
   }
+
+  // Parse query parameters from URL on load
+  useEffect(() => {
+    getIndiaAirports().then(setAirports).catch(console.error)
+
+    const params = new URLSearchParams(location.search)
+    const fnParam = params.get('fn') || ''
+    if (fnParam) {
+      setFn(fnParam)
+      fetchFlights(fnParam)
+    } else {
+      fetchFlights('')
+    }
+  }, [location.search])
 
   // Render Mini Route Map for Selected Flight
   useEffect(() => {

@@ -75,8 +75,12 @@ class IndiaService:
         return res
 
     def get_states(self) -> List[Dict[str, Any]]:
-        df = data_repo.query("SELECT * FROM india_states")
-        return df.to_dict(orient="records")
+        try:
+            df = data_repo.query("SELECT * FROM india_states")
+            return df.to_dict(orient="records")
+        except Exception:
+            df = data_repo.query("SELECT state, COUNT(*) as total_airports, SUM(monthly_passengers) as total_passengers FROM india_airports GROUP BY state ORDER BY total_passengers DESC")
+            return df.to_dict(orient="records")
 
     def get_tamil_nadu(self) -> Dict[str, Any]:
         df_ap = data_repo.query("SELECT * FROM india_airports WHERE state = 'Tamil Nadu'")

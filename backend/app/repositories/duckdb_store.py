@@ -34,7 +34,9 @@ class DataRepository:
             logger.info("Loaded india_airlines into DuckDB")
 
         # 4. India States Master
-        states_path = os.path.join(root, "data", "india", "processed", "traffic", "states_india.csv")
+        states_path = os.path.join(root, "data", "india", "reference", "states_india.csv")
+        if not os.path.exists(states_path):
+            states_path = os.path.join(root, "data", "india", "processed", "traffic", "states_india.csv")
         if os.path.exists(states_path):
             p = states_path.replace("\\", "/")
             self.conn.execute(f"CREATE TABLE india_states AS SELECT * FROM read_csv_auto('{p}')")

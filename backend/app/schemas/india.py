@@ -1,5 +1,5 @@
 from typing import Optional, List, Dict, Any
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 class IndiaOverviewResponse(BaseModel):
     total_airports: int
@@ -28,6 +28,7 @@ class DemandForecastRequest(BaseModel):
     airport_iata: str
 
 class DemandForecastResponse(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
     airport_iata: str
     airport_name: str
     current_monthly_passengers: float
@@ -35,3 +36,4 @@ class DemandForecastResponse(BaseModel):
     growth_pct: float
     confidence_interval: Dict[str, float]
     model_version: str
+
