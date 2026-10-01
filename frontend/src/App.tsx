@@ -1,9 +1,10 @@
 import { useEffect, useState, lazy, Suspense } from 'react'
 import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom'
-import { Plane, Search, Activity, Compass } from 'lucide-react'
+import { Plane, Search, Activity, Compass, BarChart3 } from 'lucide-react'
 import { getHealth, getMapData } from './services/api'
 import { Home } from './pages/Home'
 
+const Analytics = lazy(() => import('./pages/Analytics').then(m => ({ default: m.Analytics })))
 const FlightFinder = lazy(() => import('./pages/FlightFinder').then(m => ({ default: m.FlightFinder })))
 const SearchResults = lazy(() => import('./pages/SearchResults').then(m => ({ default: m.SearchResults })))
 const FlightIntelligence = lazy(() => import('./pages/FlightIntelligence').then(m => ({ default: m.FlightIntelligence })))
@@ -53,7 +54,13 @@ function NavigationHeader() {
           <NavLink to="/" end className={({ isActive }) => `px-3 py-1.5 rounded-xl transition-all ${isActive ? 'bg-slate-800 text-blue-400 font-semibold' : 'text-slate-400 hover:text-slate-200'}`}>
             Home
           </NavLink>
-          <NavLink to="/flights" className={({ isActive }) => `px-3 py-1.5 rounded-xl transition-all ${isActive ? 'bg-blue-600 text-white font-bold shadow-md shadow-blue-600/20' : 'text-slate-400 hover:text-slate-200'}`}>
+          <NavLink to="/analytics" className={({ isActive }) => `px-3 py-1.5 rounded-xl transition-all ${isActive ? 'bg-blue-600 text-white font-bold shadow-md shadow-blue-600/20' : 'text-slate-400 hover:text-slate-200'}`}>
+            <span className="flex items-center gap-1.5">
+              <BarChart3 size={16} />
+              <span>Analytics</span>
+            </span>
+          </NavLink>
+          <NavLink to="/flights" className={({ isActive }) => `px-3 py-1.5 rounded-xl transition-all ${isActive ? 'bg-slate-800 text-blue-400 font-semibold' : 'text-slate-400 hover:text-slate-200'}`}>
             <span className="flex items-center gap-1.5">
               <Compass size={16} />
               <span>Flight Finder</span>
@@ -64,6 +71,7 @@ function NavigationHeader() {
           </NavLink>
         </nav>
       </div>
+
 
       <div className="flex items-center gap-3">
         {/* Global Data Mode Provenance Badge */}
@@ -96,6 +104,7 @@ export function App() {
           <Suspense fallback={<div className="flex items-center justify-center min-h-[60vh]"><div className="w-10 h-10 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div></div>}>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/analytics" element={<Analytics />} />
               <Route path="/flights" element={<FlightFinder />} />
               <Route path="/flight-finder" element={<FlightFinder />} />
               <Route path="/search-flights" element={<FlightFinder />} />

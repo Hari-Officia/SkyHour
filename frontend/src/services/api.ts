@@ -251,3 +251,72 @@ export const getMapData = async (): Promise<MapDataResponse> => {
   const res = await fetch(`${API_BASE_URL}/map/data`)
   return res.json()
 }
+
+export interface AnalyticsFilterParams {
+  module?: string
+  month?: number
+  day_of_week?: number
+  airline?: string
+  origin?: string
+  destination?: string
+  departure_hour?: number
+}
+
+const buildQueryString = (params: AnalyticsFilterParams = {}) => {
+  const query = new URLSearchParams()
+  if (params.module) query.append('module', params.module)
+  if (params.month !== undefined && params.month !== null) query.append('month', params.month.toString())
+  if (params.day_of_week !== undefined && params.day_of_week !== null) query.append('day_of_week', params.day_of_week.toString())
+  if (params.airline) query.append('airline', params.airline)
+  if (params.origin) query.append('origin', params.origin)
+  if (params.destination) query.append('destination', params.destination)
+  if (params.departure_hour !== undefined && params.departure_hour !== null) query.append('departure_hour', params.departure_hour.toString())
+  const str = query.toString()
+  return str ? `?${str}` : ''
+}
+
+export const getAnalyticsOverview = async (params: AnalyticsFilterParams = {}) => {
+  const res = await fetch(`${API_BASE_URL}/analytics/overview${buildQueryString(params)}`)
+  return res.json()
+}
+
+export const getAnalyticsDelays = async (params: AnalyticsFilterParams = {}) => {
+  const res = await fetch(`${API_BASE_URL}/analytics/delays${buildQueryString(params)}`)
+  return res.json()
+}
+
+export const getAnalyticsCarriers = async (params: AnalyticsFilterParams = {}) => {
+  const res = await fetch(`${API_BASE_URL}/analytics/carriers${buildQueryString(params)}`)
+  return res.json()
+}
+
+export const getAnalyticsAirports = async (params: AnalyticsFilterParams = {}) => {
+  const res = await fetch(`${API_BASE_URL}/analytics/airports${buildQueryString(params)}`)
+  return res.json()
+}
+
+export const getAnalyticsRoutes = async (params: AnalyticsFilterParams = {}) => {
+  const res = await fetch(`${API_BASE_URL}/analytics/routes${buildQueryString(params)}`)
+  return res.json()
+}
+
+export const getAnalyticsTime = async (params: AnalyticsFilterParams = {}) => {
+  const res = await fetch(`${API_BASE_URL}/analytics/time${buildQueryString(params)}`)
+  return res.json()
+}
+
+export const getAnalyticsWeather = async (params: AnalyticsFilterParams = {}) => {
+  const res = await fetch(`${API_BASE_URL}/analytics/weather${buildQueryString(params)}`)
+  return res.json()
+}
+
+export const getAnalyticsModel = async () => {
+  const res = await fetch(`${API_BASE_URL}/analytics/model`)
+  return res.json()
+}
+
+export const getAnalyticsIndia = async (params: AnalyticsFilterParams = {}) => {
+  const res = await fetch(`${API_BASE_URL}/analytics/india${buildQueryString(params)}`)
+  return res.json()
+}
+

@@ -41,7 +41,11 @@ export default defineConfig({
         target: 'http://127.0.0.1:8100',
         bypass: (req) => (req.url === '/map' || req.headers.accept?.includes('html')) ? '/index.html' : undefined
       },
-      '/india': { target: 'http://127.0.0.1:8100' }
+      '/india': { target: 'http://127.0.0.1:8100' },
+      '/analytics': {
+        target: 'http://127.0.0.1:8100',
+        bypass: (req) => (req.url === '/analytics' || req.headers.accept?.includes('html')) ? '/index.html' : undefined
+      }
     }
   }
 })

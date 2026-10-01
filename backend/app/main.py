@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from backend.app.config.settings import settings
 from backend.app.config.logging import logger
-from backend.app.api.routes import health, search, flights, airports, routes, airlines, predictions, map as map_route, india
+from backend.app.api.routes import health, search, flights, airports, routes, airlines, predictions, map as map_route, india, analytics
 
 app = FastAPI(
     title=settings.app_name,
@@ -16,8 +16,8 @@ app = FastAPI(
 # CORS Middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_origins,
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -32,6 +32,8 @@ app.include_router(airlines.router)
 app.include_router(predictions.router)
 app.include_router(map_route.router)
 app.include_router(india.router)
+app.include_router(analytics.router)
+
 
 @app.exception_handler(Exception)
 async def global_exception_handler(request: Request, exc: Exception):
